@@ -13,7 +13,7 @@ func main() {
 	b := [5]int{1, 2, 3, 4, 5}
 	fmt.Println(b)
 	fmt.Println(len(b))
-
+	// the compiler will count the array element
 	b = [...]int{1, 2, 3, 4, 5}
 	fmt.Println(b)
 
